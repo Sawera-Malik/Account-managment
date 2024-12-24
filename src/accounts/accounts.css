@@ -1,0 +1,260 @@
+.account-btn{
+    background-color: #cc7a66;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #949494;
+    width: 80%;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .account-page {
+    width: 95%;
+   
+    /* margin: auto; */
+    padding: 50px;
+    background-color: #eee;
+    border: 2px solid #c2d6ff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ddd;
+  }
+
+  .account-title {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .account-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #cc7a66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .account-btn:hover {
+    background-color: #ff9980;
+  }
+
+  .create {
+    width: 98%;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .heading-1 {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .title-input,
+  .description-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+  }
+  
+  .title-input:focus,
+  .description-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px #c2d6ff;
+  }
+ 
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #cc7a66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #ff9980;
+  }
+
+  .task-heading {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .action-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .task-table thead {
+    background-color: #cc7a66;
+    color: #fff;
+  }
+  
+  .task-table th,
+  .task-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .task-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .task-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+.action-button {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 10px;
+    margin-top: 10px
+  }
+  
+ 
+  .action-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth animations */
+  }
+  
+ 
+  .view-btn {
+    background-color: #007bff;
+  }
+  
+  .view-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+ 
+  .edit-btn {
+    background-color: #28a745; 
+  }
+  
+  .edit-btn:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+  }
+  
+
+  .del-btn {
+    background-color: #dc3545;
+  }
+  
+  .del-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  .action-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  @media screen  and (max-width:600px) {
+    .account-page{
+      width:80%;
+      /* overflow-x: auto; */
+      font-size: x-small;
+      margin-left: 110px;
+      margin-right: 0px;
+      padding: 0px;
+     
+
+    }
+    .account-title{
+      font-size: x-small;
+    }
+    .create{
+      width: 95%;
+      margin-left: 5px;
+    }
+    task-container{
+      width: 70%;
+    }
+    .heading{
+      font-size: x-small;
+    }
+    .task-table{
+      font-size: xx-small;
+      width: 50%;
+      padding: 0px;
+      margin: 0px;
+
+    }
+    .action-btn{
+      font-size: xx-small;
+    }
+  }
